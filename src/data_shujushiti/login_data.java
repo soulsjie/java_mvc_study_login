@@ -1,11 +1,13 @@
 package data_shujushiti;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class login_data {
 	private  static String pass="";
 	private  static String user="";
 	private  static String pass_dao="";
 	private  static String user_dao="";
-	
 	//用户输入的变量的构造方法
 	public static String getPass() {
 		return pass;
@@ -32,7 +34,5 @@ public class login_data {
 	}
 	public static void setUser_dao(String user_dao) {
 		login_data.user_dao = user_dao;
-	}
-
-	
+	}		
 }
